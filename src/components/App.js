@@ -4,7 +4,7 @@ import '../styles/App.css';
 import Header from './Header'
 import { Switch, Route } from 'react-router-dom'
 import LinkList from './LinkList'
-import CreateLink from './LinkList'
+import CreateLink from './CreateLink'
 import Login from './Login';
 
 
