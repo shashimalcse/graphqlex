@@ -13,6 +13,9 @@ class Header extends Component {
               <Link to="/" className="ml1 no-underline black">
                 new
               </Link>
+              <Link to="/upload" className="ml1 no-underline black">
+                upload
+              </Link>
               {authToken && (
                 <div className="flex">
                   <div className="ml1">|</div>

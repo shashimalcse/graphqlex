@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom'
 import LinkList from './LinkList'
 import CreateLink from './CreateLink'
 import Login from './Login';
+import uploadImage from './uploadImage'
 
 
 class App extends Component {
@@ -18,6 +19,8 @@ class App extends Component {
             <Route exact path="/" component={LinkList} />
             <Route exact path="/create" component={CreateLink} />
             <Route exact path="/login" component={Login} />
+            <Route exact path="/upload" component={uploadImage} />
+
           </Switch>
         </div>
       </div>
